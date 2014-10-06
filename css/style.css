@@ -108,7 +108,7 @@ h2{
 }
 
 h3{
-    font-size:100%;
+    font-size:;
     line-height: 1;
     margin: 0;
     padding: 0;
@@ -251,15 +251,47 @@ abbr[title], dfn[title] {
     border-bottom:1px dotted;
     cursor:help;
 }
-#schedule .time{
-    color:blue;
+
+
+
+/*
+---------------------------------------------------------
+speakers
+---------------------------------------------------------
+*/
+.main{
+    background-color: lightblue;
+    overflow: hidden;
+}
+#speakers .creative{
+        
 }
 
-
-/* ==== schedule.html ============================================ */
-
-#schedule .time{
-    color:red;
+.speaker{
+ clear: both;
+ margin-bottom: 2em;
 }
 
+.speaker .thumb{
+/*    width:33%;*/
+    float: left;
+    padding:0 10px 5px 0;
+}
+.speaker.track1{
+    background-color: lightpink
+}
+.speaker.track2{
+    background-color: lightgreen
+}
+.speaker.track3{
+    background-color: yellow  
+}
+.speaker.track4{
+    background-color: grey
+}
 
+/*
+----------------------------------------------------------
+schedule
+----------------------------------------------------------
+*/
