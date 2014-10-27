@@ -1,0 +1,25 @@
+.intro{
+    background-color: #8899ff;
+    padding: .5em;
+}
+.intro p{
+    color:#fff;
+}
+.Workshop .track,h3,h4{
+text-align: center;
+}
+   .speaker{
+    width:50%;
+    padding:1em;
+    float:left;
+    margin: 0;
+    clear:none;
+    }
+    
+    .speaker:nth-of-type(2n+1){
+     clear:both;   
+    }
+    
+    .speaker h3{
+    clear:both;
+    }
