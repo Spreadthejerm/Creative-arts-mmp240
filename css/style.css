@@ -33,7 +33,7 @@ Set a default font-family, font-size and line-height in the body
 This will set the default for the entire site.
 */
 body{
-    margin:4%;
+/*    margin:4%;*/
     background-color:#FAFFFF;
     font-family: sans-serif; /*change to add a proper font stack */
     font-size: 100%;
@@ -283,3 +283,18 @@ speakers
 schedule
 ----------------------------------------------------------
 */
+
+
+
+
+/*
+----------------------------------------------------------
+index
+----------------------------------------------------------
+*/
+.date{
+text-align: center;
+}
+.location{
+text-align: center;
+}
