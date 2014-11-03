@@ -33,9 +33,9 @@ Set a default font-family, font-size and line-height in the body
 This will set the default for the entire site.
 */
 body{
-    margin:4%;
+/*    margin:4%;*/
     background-color:#FAFFFF;
-    font-family: sans-serif; /*change to add a proper font stack */
+    font-family: 'Open Sans', sans-serif; /*change to add a proper font stack */
     font-size: 100%;
     line-height: 1.4; /* usually something between 1.3 and 1.6 is most readable without feeling too far apart */
 }
@@ -44,6 +44,10 @@ body{
 /*Usually at least a bottom margin is given to separate paragraphs. font-size and font-family are inherited from body*/
 p{
     margin: 0 0 2 0;
+    text-align: center;
+    text-align: justify;
+    margin:.8em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /**
@@ -94,7 +98,7 @@ hr {
 
 /*Set a default font-family for the headings*/
 h1,h2,h3,h4{
-   font-family: "Times New Roman",serif;
+   font-family: 'Josefin Slab', serif;
 }
 
 /*
@@ -103,10 +107,12 @@ When you set the font-size also set the line-height.
 You may also want to set the top and bottom margins and padding
 */
 h1{
-    font-size:300%;
+    font-size:250%;
     line-height:1;
     margin: 1;
     padding: 0;
+    text-align:center;
+    
 }
 
 h2{
@@ -115,6 +121,7 @@ h2{
     margin: 1;
     padding: 0;
     color: #35586C;
+    text-align:center;
 }
 
 h3{
@@ -123,7 +130,9 @@ h3{
     line-height: 1;
     margin: 1;
     padding: 0;
-    color:#73B1B7;
+    color:#;
+    text-align:center;
+    
 }
 
 h4{
@@ -131,6 +140,8 @@ h4{
     line-height: 1;
     margin: 1;
     padding: 0;
+    text-align:center;
+    
 }
 
 /* 
@@ -283,3 +294,55 @@ speakers
 schedule
 ----------------------------------------------------------
 */
+.opening{
+background-color:#6495ED;
+color:#fff;
+}
+/*
+----------------------------------------------------------
+index
+----------------------------------------------------------
+*/
+.date{
+text-align: center;
+}
+.location{
+text-align: center;
+}
+/*
+---------------------------------------------------------
+video
+---------------------------------------------------------
+*/
+.VideoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+}
+.VideoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/*
+---------------------------------------------------------
+about
+---------------------------------------------------------
+*/
+.about{
+    background-color:#6495ED;
+    color: #
+}
+
+/*
+---------------------------------------------------------
+sessions
+---------------------------------------------------------
+*/
+.presenter{
+background-color:#6495ED;
+color:#fff;
+}
